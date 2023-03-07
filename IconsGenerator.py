@@ -2,7 +2,7 @@ import glob
 from PIL import Image
 
 AndroidIconSizes = [36,48,72,96]
-iOSIconSizes = [57,72,76,114,120,144,152,167,180,1024]
+iOSIconSizes = [20,29, 40,58, 60, 57,72,76,87,114,120,144,152,167,180,1024]
 
 def generateAndroidIcons(image):
     for size in AndroidIconSizes:
